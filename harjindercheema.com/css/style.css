@@ -15,36 +15,28 @@
 
 /* Screen size specific */
 @media screen and (max-width: 1000px) {
-
 	.projectsContainer {
 		margin: 0 !important;
 	}
-
 }
 @media screen and (max-width: 500px) {
-
 	.project_details {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-
 	.projectsContainer {
 		margin: 0 !important;
 	}
-
 	.project_title {
 		text-align: center;
 		margin-top: 30px;
 	}
-
 	.project_video {
 		width: 100% !important;
 	}
-
 	.project-header-storeImage {
 		width: 100% !important;
 	}
-
 }
 
 
@@ -65,9 +57,9 @@ body:not(.main) {
 .row {
 	text-align: auto !important;
 }
-.section {
+/* .section {
 	padding: 100px 0;
-}
+} */
 .socialMediaSection{
 	padding-bottom: 0px;
 }
@@ -264,13 +256,11 @@ body:not(.main) {
 
 	height: 50px;
 
-
 	display: block;
 	max-width:230px;
 	max-height:95px;
 	width: auto;
 	height: auto;
-
 }
 .project_logo {
 	width: 100%;
